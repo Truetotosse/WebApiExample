@@ -8513,19 +8513,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\gitforksourcefolder\\core\\Win\\DevExpress.Xpo\\spike\\XpoWebApi3\\XpoWebApi.csproj",
+      "projectUniqueName": "D:\\gitforksourcefolder\\WebApiExample\\XpoWebApiService\\XpoWebApi.csproj",
       "projectName": "XpoWebApi",
-      "projectPath": "D:\\gitforksourcefolder\\core\\Win\\DevExpress.Xpo\\spike\\XpoWebApi3\\XpoWebApi.csproj",
+      "projectPath": "D:\\gitforksourcefolder\\WebApiExample\\XpoWebApiService\\XpoWebApi.csproj",
       "packagesPath": "C:\\Users\\trenin.georgiy\\.nuget\\packages\\",
-      "outputPath": "D:\\gitforksourcefolder\\core\\Win\\DevExpress.Xpo\\spike\\XpoWebApi3\\obj\\",
+      "outputPath": "D:\\gitforksourcefolder\\WebApiExample\\XpoWebApiService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "D:\\gitforksourcefolder\\core\\Win\\DevExpress.Xpo\\NuGet.Config",
-        "D:\\gitforksourcefolder\\core\\Win\\NuGet.Config",
         "C:\\Users\\trenin.georgiy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -8534,14 +8532,9 @@
         "netcoreapp2.1"
       ],
       "sources": {
-        "D:\\gitforksourcefolder\\core\\Win\\DevExpress.Xpo\\UnitTest\\NuGetPackages": {},
-        "http://nuget.devexpress.devx/nuget/": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://dotnet.myget.org/F/aspnetcore-dev/": {},
-        "https://dotnet.myget.org/F/aspnetcore-release/": {},
-        "https://dotnet.myget.org/F/dotnet-core/": {},
-        "https://www.myget.org/F/xunit/": {},
-        "https://www.nuget.org/api/v2/": {}
+        "https://nuget.devexpress.com/BTVmnExASiSyDtSFQ53jx1nAKPHcgLndkdldFin3VnwaRgxh7k/api": {}
       },
       "frameworks": {
         "netcoreapp2.1": {

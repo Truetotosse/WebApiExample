@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SVb9tCVJQZvqnocBkwmbcOYseqNn8lrzVvAwZ9WrNeQYXT3PFA1vk+AaMAP6Hfi/BwQbcfg+j0tfpJPeq0sOAA==",
+  "dgSpecHash": "rwpYs6p2SSQpFEDRBdHEx+9Ft+9QvftE60tLUWY/9QHR2AmwDi1Go4NP8/Y0SKdcNPGbnMKwuzOxFy8NgHE+kg==",
   "success": true,
-  "projectFilePath": "D:\\gitforksourcefolder\\core\\Win\\DevExpress.Xpo\\spike\\XpoWebApi3\\XpoWebApi.csproj",
+  "projectFilePath": "D:\\gitforksourcefolder\\WebApiExample\\XpoWebApiService\\XpoWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trenin.georgiy\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",
     "C:\\Users\\trenin.georgiy\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
