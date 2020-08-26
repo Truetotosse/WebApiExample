@@ -26,7 +26,7 @@ This app uses the .NET Framework for Client application, but .NET Core applicati
 
 2. Search for the ASP.NET Core Web Application.
 
-3. Set the project name to **WebApiService** and click **Create**.
+3. Set the project name to **XpoWebApi**, .NET Core version to 2.1 and click **Create**.
 
 4. Select **Empty** and click **Create**.
 
@@ -73,7 +73,7 @@ For more information, see the following:
 
 2. Search for the **Console app (.NET Framework)** template.
 
-3. Set the project name to **WebApiClient** and click **Create**.
+3. Set the project name to **XpoWebApiClient** and click **Create**.
 
 4. In the **Solution Explorer**, add *Customer.cs* class to your solution and replace its contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiClient/XpoWebApiClient). This code implements basic Customer persistent object.
 
