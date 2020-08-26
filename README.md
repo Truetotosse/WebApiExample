@@ -29,7 +29,7 @@ This app uses the .NET Framework for Client application, but .NET Core applicati
 
 5. Open *Startup.cs* and replace its contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiService). It will add services initialization and connection to In Memory Data
 
-6. Open *properties\launchSettings.json* and set applicationUrl under WebApiService to http://localhost:5000 
+6. Open *properties\launchSettings.json* and set `applicationUrl` under `WebApiService` to http://localhost:5000, `launchBrowser` to `false`. 
 
 7. In the **Solution Explorer**, create **Controllers** folder and add *XPOController.cs* into it
 
@@ -99,6 +99,4 @@ For more information, see the following topics:
 1. Press **F5** in XpoWebApi solution to build and run the Service application.
 2. Press **F5** in XpoWebApiClient solution to build and run the Service application.
 
-## Known Issues
-
-* readme doesnt lead to success
+Client will add two objects to the data provider, search for one, delete it and then search for the second one. 
