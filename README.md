@@ -39,14 +39,6 @@ This app uses the .NET Framework for Client application, but .NET Core applicati
 8. Replace *XPOController.cs* contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiService/Controllers). This code initiates WebApiHelper to handle reqests from client application.
   
 
-For more information, see the following:
-
-  * https://www.nuget.org/
-  * https://nuget.devexpress.com/
-  * [Configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/index?view=aspnetcore-3.0)
-  * [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.0)
-  * [ASP.NET Core Dependency Injection in XPO](https://www.devexpress.com/Support/Center/Question/Details/T637597/asp-net-core-dependency-injection-in-xpo)
-
 ### Add the XPO Package
 
 Use any of the following approaches to install the XPO package:
@@ -66,6 +58,14 @@ Use any of the following approaches to install the XPO package:
   * In the top left corner under **Browse**, search for the `DevExpress.Xpo` package and select the latest version, v20.2, on the right.
   * Click **Install** and accept all licenses in the **License Acceptance** dialogs. 
     
+For more information, see the following:
+
+  * https://www.nuget.org/
+  * https://nuget.devexpress.com/
+  * [Configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/index?view=aspnetcore-3.0)
+  * [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.0)
+  * [ASP.NET Core Dependency Injection in XPO](https://www.devexpress.com/Support/Center/Question/Details/T637597/asp-net-core-dependency-injection-in-xpo)
+
 
 ## Step 2: Create a Client app
 
