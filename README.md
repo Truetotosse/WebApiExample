@@ -4,12 +4,12 @@ This tutorial demonstrates how to create a distributed application that uses the
 
 
 ## Prerequisites
-# Service
+### Service
 * [Visual Studio 2019 16.4.5 or later](https://visualstudio.com/) with the following workloads:
   * **ASP.NET and web development**
   * **.NET Core cross-platform development**
 * [.NET Core 2.1 SDK or later](https://www.microsoft.com/net/download/all)
-# Client using .NET Framework
+### Client using .NET Framework
 * [Visual Studio 2019 16.4.5 or later](https://visualstudio.com/) with the following workloads:
   * **ASP.NET and web development**
   * **.NET Framework cross-platform development**
@@ -18,6 +18,9 @@ This tutorial demonstrates how to create a distributed application that uses the
 This app uses the .NET Framework for Client application, but .NET Core application is also possible.
 
 ## Step 1: Create a Service app
+
+   
+### Create project
 
 1. Open Visual Studio and create a new project.
 
@@ -38,9 +41,33 @@ This app uses the .NET Framework for Client application, but .NET Core applicati
 
 For more information, see the following:
 
-* [Configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/index?view=aspnetcore-3.0)
+  * https://www.nuget.org/
+  * https://nuget.devexpress.com/
+  * [Configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/index?view=aspnetcore-3.0)
   * [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-3.0)
   * [ASP.NET Core Dependency Injection in XPO](https://www.devexpress.com/Support/Center/Question/Details/T637597/asp-net-core-dependency-injection-in-xpo)
+
+### Add the XPO Package
+
+Use any of the following approaches to install the XPO package:
+
+**Package Manager Console**
+
+  * From the Visual Studio **Tools** menu, select **NuGet Package Manager > Package Manager Console**.
+  * Make sure **Package source** is set to **All**, **nuget.org** or **DevExpress 20.2 Local** and run the following command: 
+     ```console
+    Install-Package DevExpress.Xpo -Version 20.2
+    ```
+
+**NuGet Package Manager**
+
+  * In **Solution Explorer**, right-click the project name and select **Manage NuGet Packages**. <p align="center"><img width="400" src="/Tutorials/images/Blazor.ServerSide/2.1.png"></p>
+  * Make sure **Package source** is set to **All**, **nuget.org** or **DevExpress 20.1 Local** on the right.
+  * In the top left corner under **Browse**, search for the `DevExpress.Xpo` package and select the latest version, v20.1, on the right.
+  * Click **Install** and accept all licenses in the **License Acceptance** dialogs. 
+    <p align="center">
+      <img width="1000" src="/Tutorials/images/Blazor.ServerSide/2.2.png">
+    </p>
 
 ## Step 2: Create a Client app
 
