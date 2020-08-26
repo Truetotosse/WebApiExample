@@ -26,9 +26,9 @@ This app uses the .NET Framework for Client application, but .NET Core applicati
 
 2. Search for the ASP.NET Core Web Application.
 
-3. Set the project name to **XpoWebApi**, .NET Core version to 2.1 and click **Create**.
+3. Set the project name to **XpoWebApi** and click **Create**.
 
-4. Select **Empty** and click **Create**.
+4. Select **Empty**, set .NET Core version to 2.1 and click **Create**.
 
 5. Open *Startup.cs* and replace its contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiService). It will add services initialization and connection to In Memory Data
 
