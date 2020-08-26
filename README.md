@@ -61,13 +61,11 @@ Use any of the following approaches to install the XPO package:
 
 **NuGet Package Manager**
 
-  * In **Solution Explorer**, right-click the project name and select **Manage NuGet Packages**. <p align="center"><img width="400" src="/Tutorials/images/Blazor.ServerSide/2.1.png"></p>
-  * Make sure **Package source** is set to **All**, **nuget.org** or **DevExpress 20.1 Local** on the right.
-  * In the top left corner under **Browse**, search for the `DevExpress.Xpo` package and select the latest version, v20.1, on the right.
+  * In **Solution Explorer**, right-click the project name and select **Manage NuGet Packages**. 
+  * Make sure **Package source** is set to **All**, **nuget.org** or **DevExpress 20.2 Local** on the right.
+  * In the top left corner under **Browse**, search for the `DevExpress.Xpo` package and select the latest version, v20.2, on the right.
   * Click **Install** and accept all licenses in the **License Acceptance** dialogs. 
-    <p align="center">
-      <img width="1000" src="/Tutorials/images/Blazor.ServerSide/2.2.png">
-    </p>
+    
 
 ## Step 2: Create a Client app
 
