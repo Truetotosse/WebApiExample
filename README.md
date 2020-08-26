@@ -32,7 +32,7 @@ This app uses the .NET Framework for Client application, but .NET Core applicati
 
 5. Open *Startup.cs* and replace its contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiService). It will add services initialization and connection to In Memory Data
 
-6. Open *properties\launchSettings.json* and set `applicationUrl` under `WebApiService` to http://localhost:5000, `launchBrowser` to `false`. 
+6. Open *properties\launchSettings.json* and set all `applicationUrl` to http://localhost:5000, all `launchBrowser` to `false` . 
 
 7. In the **Solution Explorer**, create **Controllers** folder and add *XPOController.cs* into it
 
