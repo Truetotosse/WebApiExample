@@ -27,13 +27,13 @@ This app uses the .NET Framework for Client application, but .NET Core applicati
 
 4. Select **Empty** and click **Create**.
 
-5. Open *Startup.cs* and replace its contents with the code from [corresponding files under this folder](https://github.com/DevExpress/XPO/tree/master/Tutorials/ASP.NET/Blazor.ServerSide/CS/DataAccess). It will add services initialization and connection to In Memory Data
+5. Open *Startup.cs* and replace its contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiService). It will add services initialization and connection to In Memory Data
 
 6. Open *properties\launchSettings.json* and set applicationUrl under WebApiService to http://localhost:5000 
 
-7. In the **Solution Explorer**, create **Controllers** folder and add XPOController.cs into it
+7. In the **Solution Explorer**, create **Controllers** folder and add *XPOController.cs* into it
 
-8. Replace *Startup.cs* contents with the code from [corresponding files under this folder](https://github.com/DevExpress/XPO/tree/master/Tutorials/ASP.NET/Blazor.ServerSide/CS/DataAccess). This code initiates WebApiHelper to handle reqests from client application.
+8. Replace *XPOController.cs* contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiService/Controllers). This code initiates WebApiHelper to handle reqests from client application.
   
 
 For more information, see the following:
@@ -50,7 +50,7 @@ For more information, see the following:
 
 3. Set the project name to **WebApiClient** and click **Create**.
 
-4. In the **Solution Explorer**, add *Customer.cs* class to your solution and replace its contents with the code from [corresponding files under this folder](https://github.com/DevExpress/XPO/tree/master/Tutorials/ASP.NET/Blazor.ServerSide/CS/DataAccess). This code implements basic Customer persistent object.
+4. In the **Solution Explorer**, add *Customer.cs* class to your solution and replace its contents with the code from [corresponding file under this folder](https://github.com/Truetotosse/WebApiExample/tree/master/XpoWebApiClient/XpoWebApiClient). This code implements basic Customer persistent object.
 
   
 
@@ -59,18 +59,19 @@ For more information, see the following:
 	    IDataStore dataStore = new WebAPIDataStore("http://localhost:5000/");
             IDataLayer dataLayer = new SimpleDataLayer(new ReflectionDictionary(), dataStore);
             UnitOfWork uow = new UnitOfWork(dataLayer);
-            Customer product = new Customer(uow) {
+            Customer newCustomer  = new Customer(uow) {
                 FirstName = "Customer",
                 LastName = "FoundFirst"
             };
             
-            uow.Save(product);
+            uow.Save(newCustomer );
 
-            product = new Customer(uow) {
+            newCustomer  = new Customer(uow) {
                 FirstName = "Customer",
                 LastName = "FoundSecond"
             };
 
+	    uow.Save(newCustomer);
             uow.CommitChanges();
 
             Customer search = uow.FindObject<Customer>( CriteriaOperator.Parse("FirstName=?", "Customer"));
