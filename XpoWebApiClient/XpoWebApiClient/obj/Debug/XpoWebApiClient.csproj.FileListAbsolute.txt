@@ -1,0 +1,11 @@
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\DevExpress.Data.v20.2.dll
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\DevExpress.Xpo.v20.2.dll
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\DevExpress.Data.v20.2.pdb
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\DevExpress.Xpo.v20.2.pdb
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\XpoWebApiClient.csproj.CoreCompileInputs.cache
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\XpoWebApiClient.csproj.CopyComplete
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
