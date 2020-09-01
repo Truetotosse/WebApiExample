@@ -8,7 +8,7 @@ This tutorial demonstrates how to create a distributed application that uses the
 * [Visual Studio 2019 16.4.5 or later](https://visualstudio.com/) with the following workloads:
   * **ASP.NET and web development**
   * **.NET Core cross-platform development**
-* [.NET Core 2.1 SDK or later](https://www.microsoft.com/net/download/all)
+* [.NET Core 3.0 SDK or later](https://www.microsoft.com/net/download/all)
 ### Client using .NET Framework
 * [Visual Studio 2019 16.4.5 or later](https://visualstudio.com/) with the following workloads:
   * **ASP.NET and web development**
