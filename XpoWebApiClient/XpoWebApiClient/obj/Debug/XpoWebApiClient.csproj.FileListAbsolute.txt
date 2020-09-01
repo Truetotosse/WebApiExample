@@ -9,3 +9,16 @@ C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\XpoWebApi
 C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\XpoWebApiClient.csproj.CopyComplete
 C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
 C:\Users\trenin.georgiy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\ConsoleApp2.exe.config
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\ConsoleApp2.exe
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\ConsoleApp2.pdb
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\DevExpress.Data.v20.2.dll
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\DevExpress.Xpo.v20.2.dll
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\DevExpress.Data.v20.2.pdb
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\DevExpress.Xpo.v20.2.pdb
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\obj\Debug\XpoWebApiClient.csprojAssemblyReference.cache
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\obj\Debug\XpoWebApiClient.csproj.CoreCompileInputs.cache
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\obj\Debug\XpoWebApiClient.csproj.CopyComplete
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\obj\Debug\ConsoleApp2.exe
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\obj\Debug\ConsoleApp2.pdb
+D:\gitforksourcefolder\WebApiExample\XpoWebApiClient\XpoWebApiClient\bin\Debug\DevExpress.Xpo.v20.2.dll.config
